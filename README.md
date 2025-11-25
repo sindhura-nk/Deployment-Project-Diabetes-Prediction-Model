@@ -86,13 +86,11 @@ Friendly messages showing prediction results.
 
 ## 🚀 Deployment
 
-Your complete machine learning project was deployed through Streamlit Cloud.
+The complete machine learning project was deployed through Streamlit Cloud. I have pushed all the necessary files (app.py, model file, requirements.txt) to GitHub.
 
-You pushed all the necessary files (app.py, model file, requirements.txt) to GitHub.
+Streamlit Cloud automatically built and deployed the app using my repository.
 
-Streamlit Cloud automatically built and deployed the app using your repository.
-
-Users can now access your model online at:
+Users can now access my model online at: https://deployment-project-diabetes-prediction-model-sindhura-nk.streamlit.app/ 
 
 
 📁 **Repository Structure**
