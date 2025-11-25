@@ -8,7 +8,7 @@ The goal is to classify individuals into different diabetes risk categories base
 ## 🔗 Deployed App:
 https://deployment-project-diabetes-prediction-model-sindhura-nk.streamlit.app/
 
-**The project includes:**
+### The project includes:
 
   Data preprocessing
   
