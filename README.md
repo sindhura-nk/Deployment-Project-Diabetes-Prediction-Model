@@ -6,6 +6,7 @@ This project focuses on building a Multiclass Diabetes Prediction Model and depl
 The goal is to classify individuals into different diabetes risk categories based on health-related features using a Machine Learning model.
 
 The project includes:
+
   Data preprocessing
   
   Exploratory data analysis
