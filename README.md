@@ -20,14 +20,14 @@ The project includes:
   
   Deployment on Streamlit Cloud
 
-🧠 **Model Details**
-1. Dataset
+## 🧠 Model Details
+**1. Dataset**
 
 The model uses a diabetes dataset containing several predictive health parameters such as Glucose level, Blood pressure, BMI, Age, Insulin, Skin thickness, Pregnancies, Diabetes pedigree function.
 
 The target column: Outcome, which contains multiple classes (multiclass labels indicating various risk levels).
 
-2. Data Preprocessing
+**2. Data Preprocessing**
 
 You performed the following steps before model training:
   
@@ -41,7 +41,7 @@ You performed the following steps before model training:
   
   Feature scaling to improve model performance
 
-3. Model Training
+**3. Model Training**
 
 You experimented with different classification algorithms and finalized one after evaluating metrics such as:
 
@@ -53,18 +53,18 @@ Confusion matrix
 
 The final trained model was saved using pickle and loaded inside the Streamlit app.
 
-🌐 Streamlit Application
+## 🌐 Streamlit Application
 
 Your Streamlit app provides a simple and user-friendly interface through which users can:
 
-✔ Enter health-related input values
+## ✔ Enter health-related input values
 
 Inputs include:
 Pregnancies, Glucose, Blood Pressure, Skin Thickness, Insulin, BMI, Diabetes Pedigree Function, Age, 
 
 These are collected through Streamlit number input components.
 
-✔ Model Prediction
+## ✔ Model Prediction
 
 The input data is processed into the format expected by your model.
 
@@ -72,7 +72,7 @@ The trained model predicts the diabetes class/risk level.
 
 The output is displayed clearly to the user.
 
-✔ UI/UX Features
+## ✔ UI/UX Features
 
 Clean layout built using st.title, st.subheader, and st.number_input.
 
@@ -80,7 +80,7 @@ Real-time prediction when the user clicks the "Predict" button.
 
 Friendly messages showing prediction results.
 
-🚀 Deployment
+## 🚀 Deployment
 
 Your complete machine learning project was deployed through Streamlit Cloud.
 
@@ -90,10 +90,10 @@ Streamlit Cloud automatically built and deployed the app using your repository.
 
 Users can now access your model online at:
 
-🔗 Deployed App:
+## 🔗 Deployed App:
 https://deployment-project-diabetes-prediction-model-sindhura-nk.streamlit.app/
 
-📁 Repository Structure
+📁 **Repository Structure**
 📦 Deployment-Project-Diabetes-Prediction-Model
  ┣ 📜 app.py                # Streamlit application
  ┣ 📜 trained_model.pkl     # Saved machine learning model
@@ -101,7 +101,7 @@ https://deployment-project-diabetes-prediction-model-sindhura-nk.streamlit.app/
  ┣ 📜 requirements.txt      # Python dependencies
  ┗ 📜 README.md             # Project documentation
 
-🛠 Technologies Used
+## 🛠 Technologies Used
 
 Python
 
