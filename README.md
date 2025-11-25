@@ -5,6 +5,9 @@ This project focuses on building a Multiclass Diabetes Prediction Model and depl
 
 The goal is to classify individuals into different diabetes risk categories based on health-related features using a Machine Learning model.
 
+## 🔗 Deployed App:
+https://deployment-project-diabetes-prediction-model-sindhura-nk.streamlit.app/
+
 **The project includes:**
 
   Data preprocessing
@@ -91,15 +94,19 @@ Streamlit Cloud automatically built and deployed the app using your repository.
 
 Users can now access your model online at:
 
-## 🔗 Deployed App:
-https://deployment-project-diabetes-prediction-model-sindhura-nk.streamlit.app/
 
 📁 **Repository Structure**
+
 📦 Deployment-Project-Diabetes-Prediction-Model
+
  ┣ 📜 app.py                # Streamlit application
+ 
  ┣ 📜 trained_model.pkl     # Saved machine learning model
- ┣ 📜 scaler.pkl            # Scaler used during preprocessing (if used)
+ 
+ ┣ 📜 pre.pkl            # Feature scaling used during preprocessing
+ 
  ┣ 📜 requirements.txt      # Python dependencies
+ 
  ┗ 📜 README.md             # Project documentation
 
 ## 🛠 Technologies Used
