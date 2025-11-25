@@ -1,4 +1,4 @@
-📌 **README – Diabetes Prediction Model (Multiclass Classification & Deployment)**
+# 📌 README – Diabetes Prediction Model (Multiclass Classification & Deployment)
 🔍 **Project Overview**
 
 This project focuses on building a Multiclass Diabetes Prediction Model and deploying it using Streamlit.
